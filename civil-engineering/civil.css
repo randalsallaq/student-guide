@@ -9,10 +9,12 @@ body{
 #content{
     margin-left: 150px;
     margin-right: 150px;
+    
 }
  #img1{
      float: right;
      margin-left: 130px;
+     width: 40%;
 
  }
  .paragraph{
@@ -22,6 +24,8 @@ body{
      height: 300px;
      line-height: 30px;
      text-indent: 30px;
+     font-family: 'Josefin Slab', serif;
+     
      
  }
  #top-right:hover{
@@ -39,10 +43,10 @@ body{
 
  #top-right{
         position: absolute;
-        top: 340px;
+        top: 280px;
         right: 120px;
         left: 790px;
-        font-size: 44px;
+        font-size: 33px;
         background-color: rgba(247, 224, 22, 0.5);
       }
 
@@ -58,7 +62,7 @@ body{
     top: 820px;
     right: 900px;
     left: 190px;
-    font-size: 29px;
+    font-size: 33px;
     background-color: rgba(247, 226, 40, 0.666);
   
  }
@@ -76,6 +80,7 @@ body{
     height: 300px;
     line-height: 30px;
     text-indent: 30px;
+    font-family: 'Josefin Slab', serif;
    
  }
 
@@ -87,10 +92,10 @@ body{
 
  #bottom-left{
     position: absolute;
-        top: 1550px;
+        top: 1500px;
         right: 120px;
         left: 790px;
-        font-size: 26px;
+        font-size: 33px;
         background-color: rgba(247, 224, 22, 0.7)
   
  }
@@ -107,6 +112,113 @@ body{
     line-height: 30px;
     text-indent: 30px;
     padding-top: 200px;
+    font-family: 'Josefin Slab', serif;
     
 }
 
+h1{
+    padding-top: 2px;
+    background-color: rgba(247, 224, 22, 0.7);
+ }
+ #h1{
+     padding-top: 30px;
+ }
+ h1:hover{
+    transition: 1s;
+    margin-left: 25px;
+ }
+ #fourth-h2{
+    position: absolute;
+    top: 2400px;
+    right: 900px;
+    left: 155px;
+    font-size: 33px;
+    background-color: rgba(247, 226, 40, 0.666);
+    margin-right: 80px;
+        
+ }
+ #fourth-h2:hover{
+    transition: 1s;
+    margin-left: 25px;
+}
+#img4{
+width: 25%;
+        float: left;
+     margin-right: 130px;
+}
+#what-qualifications-do-you-need{
+    margin-top: 150px;    
+}
+#img5{
+    width: 45%;
+    float: right;
+ margin-left: 130px;
+}
+#what-degrees-can-you-study{
+    margin-top: 100px;
+}
+#fifth-h2{  position: absolute;
+    top: 2950px;
+    right: 120px;
+    left: 790px;
+    font-size: 33px;
+    background-color: rgba(247, 224, 22, 0.7)
+
+}
+#fifth-h2:hover{
+transition: 1s;
+margin-left: 25px;
+}
+
+.paragraph4{
+    font-size: 20px;
+    /* line-height: 10px; */
+    word-spacing: 7px;
+    height: 300px;
+    line-height: 30px;
+    text-indent: 30px;
+    padding-top: 200px;
+    font-family: 'Josefin Slab', serif;
+    margin-top: 5px;
+    padding-top: 0px;
+}
+#ul-1{
+    font-size: 20px;
+    /* line-height: 10px; */
+    word-spacing: 7px;
+    height: 300px;
+    line-height: 30px;
+    text-indent: 30px;
+    padding-top: 200px;
+    font-family: 'Josefin Slab', serif;
+    margin-top: -250px;
+    padding-top: 0px; 
+   
+}
+#ul-2{
+    font-size: 20px;
+    /* line-height: 10px; */
+    word-spacing: 7px;
+    height: 300px;
+    line-height: 30px;
+    text-indent: 30px;
+    padding-top: 200px;
+    font-family: 'Josefin Slab', serif;
+    margin-top: -200px;
+    padding-top: 0px; 
+    margin-left: -55px;
+    margin-bottom: -200px;
+}
+
+.paragraph5{
+    font-size: 20px;
+    /* line-height: 10px; */
+    word-spacing: 7px;
+    height: 300px;
+    line-height: 30px;
+    
+    padding-top: 200px;
+    font-family: 'Josefin Slab', serif;
+    margin-top: -180px;
+    padding-top: 0px;
+}
