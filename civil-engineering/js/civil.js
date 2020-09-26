@@ -1,7 +1,7 @@
 var ctx = document.getElementById('what jobs can you get as a civil engineering graduate-chart').getContext('2d');
 var chart = new Chart(ctx, {
     // The type of chart we want to create
-    type: 'bar',
+    type: 'doughnut',
 
     // The data for our dataset
     data: {
