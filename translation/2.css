@@ -1,0 +1,231 @@
+body{
+
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.827),
+     #e0e2db);
+    margin-bottom: 0%;
+    
+    
+    }
+   
+a {
+    text-decoration: none;
+    font-style: oblique;
+    margin-left: 10px;   
+    font-family: 'Sarabun', sans-serif;
+    color: #a1a1a1;
+
+}
+a:hover {
+    color: rgb(45, 178, 255);
+  }
+nav img{
+    position: relative;
+    left: 70px;
+}
+#navBar{
+    margin-right: 40%;
+    margin-top: 42px;
+    float: right;
+}
+#fontawesome{
+position: relative;
+top: 50%;
+left: 80%;
+}
+.fntas{
+    color: #878787;
+}
+
+h1{
+    margin-left: 100px;
+    color: #5f7470;
+    font-size: 23px;
+    font-family:'Comfortaa', cursive;
+   
+}
+.paragraph{
+    margin-top: 0%;
+    font-family: 'Sarabun', sans-serif;
+    color: #889696;
+    text-indent: 20px;
+    
+    word-spacing: 7px;
+}
+#firstPargraph{
+    margin-top: 0%;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 45%;
+}
+#parthenon img{
+    height: 197px;
+    width: 280px;
+  position: absolute;
+  right: 20%;
+  top: 120px; 
+}
+#secondParagraph{
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 43%;
+    margin-bottom: 0%;
+}
+ul {
+    margin: 0%;
+}
+#headingTwo{
+    margin-left: 20%;
+}
+#turning-turso{
+    position: absolute;
+    left: 103px;
+    top: 42%;
+    display: inline-block;
+    
+}
+#thirdParagraph{
+    position: relative;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 43%;
+    margin-bottom: 0%;
+}
+#sideHead{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 60%;
+    margin-right: 20%;
+    color: #5f7470;
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+::first-letter {
+    text-transform: uppercase;
+    
+}
+#didYouKnow{
+    width: 282px;
+    margin-top: 20px;
+    text-transform: lowercase;
+    margin-left: 20px;
+}
+#sideHead h2{
+    margin-bottom: 0px;
+}
+
+#img2{
+    width: 20%;
+    height: 500px;
+    
+
+}
+h2{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+#par4{
+    margin-left: 8% ;
+    margin-right: 20% ;
+    
+}
+
+   .head_::first-letter{
+       font-size: 22px;
+   }
+
+.paragraph4{
+    text-indent: 12px;
+    margin-top: 0%;
+    font-family: 'Sarabun', sans-serif;
+    color: #889696;
+    margin-right: 30%;
+    
+}
+strong{
+    color: rgb(247, 238, 238);
+    font-size: 18px;
+}
+.head_{
+    
+    font-size: 18px;
+    font-family:'Comfortaa', cursive;
+    background-color: rgba(39, 38, 38, 0.612);
+    margin-right: 80%;
+    
+ 
+}
+.head_:hover{
+
+    transition: 1s;
+    margin-left: 25px;
+}
+#img-right{
+    height: 197px;
+    width: 280px;
+  position: absolute;
+  right: 20%;
+  top: 560px; 
+  
+}
+#img2-right{
+    width: 20%;
+    height: 600px;
+    right: 20%;
+    position: absolute;
+    top:1000px ;
+}
+
+.paragraph_{
+   
+    padding-right: 20%;
+    /* font-family:'Comfortaa', cursive; */
+    color: #889696;
+    font-size: 20px;
+    text-indent: 20px;
+    word-spacing: 7px;
+}
+#myChart{
+    text-align: center;
+    width: 10%;
+}
+.paragraph5{
+    margin-left: 7%;
+    margin-right: 20%;
+    font-family: 'Sarabun', sans-serif;
+    color: #889696;
+}
+.did{
+    background: rgba(173, 104, 40, 0.781);
+    color: white;
+}
+.did:hover{
+    transition: 1s;
+    margin-left: 50px;
+}
+.book{
+    width: 10%;
+    height: 40%;
+    left: 7%;
+    position: absolute;
+    top:2250px ;
+}
+.bookp{
+    background: rgba(173, 104, 40, 0.781);
+    color: white;
+    margin-right: 75%;
+    margin-left: 9%;
+    position: absolute;
+    top: 2350px;
+    font-size: 20px;
+    
+
+}
+#end{
+    padding-bottom: 30%;
+}
+.bookp:hover{
+    transition: 1s;
+    margin-left: 30px;
+}
