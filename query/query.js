@@ -31,6 +31,7 @@ if(localStorage.getItem('clicks')){
    var totalClicks =  JSON.parse(localStorage.getItem('clicks'));
 }else{
 var totalClicks = 0;
+
 }
 var x;
 
@@ -41,6 +42,16 @@ function MyQuestions(question, answer1, answer2, answer3) {
         this.answer3 = answer3,
 
         globalArr.push(this);
+
+var x =1 ;
+
+function MyQuestions(question,answer1,answer2,answer3) {
+    this.question= question,
+    this.answer1= answer1,
+    this.answer2=answer2,
+    this.answer3=answer3,
+    globalArr.push(this);
+
 };
 
 new MyQuestions('Which school subjects do you prefer?', 'Art, Music, Languages', 'Physics, chemistry, mathematics', 'Computer science, logic');
