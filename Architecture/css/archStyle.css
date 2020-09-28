@@ -331,3 +331,14 @@ a:hover #linkBook {
     position: relative;
     left: 8.5%;
 }
+#architectImage{
+    position: absolute;
+    top: 160%;
+    right: 20%;
+}
+
+#answerSection{
+    position: absolute;
+    top: 195%;
+    right: 24%;
+}
