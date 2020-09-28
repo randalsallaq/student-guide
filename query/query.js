@@ -3,7 +3,10 @@
 var questionDiv = document.getElementById('questionDiv');
 var resultDiv = document.getElementById('result');
 var submitButton = document.getElementById('submitButton');
-var answerDiv = document.getElementById('answerDiv')
+var answerDiv = document.getElementById('answerDiv');
+var answer11 = document.getElementById('answer1');
+var answer22 = document.getElementById('answer2');
+var answer33 = document.getElementById('answer3');
 var globalArr=[];
 var testArr = [-1];
 var firstChoiseHuman = 0;
@@ -36,15 +39,7 @@ new MyQuestions('If you have some money to invest, you would invest in:','Creati
 new MyQuestions('When solving a math problem, you usually:','If you can\'t solve this one\, move onto the next one','Stick with the problem until you figure it out','Solve the math problem in anyway possible, even if it takes creating new way');
 new MyQuestions('You would prefer to sit in the same place for long hours and not to do physical actions?','No','Sometimes','Yes');
 console.log(globalArr);
-// function PickRandomNumber() {
 
-//     do{
-//         var questionIndex = Math.floor(Math.random()*globalArr.length);
-//     }while(testArr[0] === questionIndex);
-//     testArr = [];
-//     testArr.push(questionIndex);
-//     displayQestions(questionIndex);
-// }
 
 
 function displayQestions() {
@@ -79,8 +74,9 @@ function display(){
      }
 }
 
-answerDiv.addEventListener('click',ShwoResults);
-
+answer11.addEventListener('click',ShwoResults);
+answer22.addEventListener('click',ShwoResults);
+answer33.addEventListener('click',ShwoResults);
 function ShwoResults(event) {
     var clickedParagraph;
 
