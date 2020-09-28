@@ -12,7 +12,7 @@ var chart = new Chart(ctx, {
             'Project Management'
         ],
         datasets: [{
-            backgroundColor: ['lightblue', 'brown', 'gray','lightsalmon','lightgreen'],
+            backgroundColor: [' #2c6ee9', 'darkbrown', 'darkgray','peru','#502d00'],
             data: [25, 5,10,50,10 ]
         }]
     },

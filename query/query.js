@@ -20,7 +20,6 @@ function MyQuestions(question,answer1,answer2,answer3) {
     this.answer1= answer1,
     this.answer2=answer2,
     this.answer3=answer3,
-    
     globalArr.push(this);
 };
 
