@@ -214,7 +214,7 @@ h2{
     font-family: 'Comfortaa', cursive;
 }
 h3{
-    padding-top: 10%;
+    padding-top: 8%;
     padding-left: 5%;
     justify-content: left;
     margin-right: 50px;
@@ -284,7 +284,7 @@ a:hover #adjust {
 }
 table{
     position: relative;
-    left:  20%;
+    left:  25%;
 }
 th {
     font-family: 'Roboto Condensed', sans-serif;;
