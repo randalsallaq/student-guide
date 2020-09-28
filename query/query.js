@@ -112,8 +112,8 @@ var chart = new Chart(ctx, {
         labels: ['Arts & Humanities', 'Applied Science', 'Information Technology'],
         datasets: [{
            
-            backgroundColor: ['rgb(0, 0, 255)','rgb(128,0,0)','rgb(192,192,192)'],
-            borderColor: ['rgb(0, 0, 255)','rgb(128,0,0)','rgb(192,192,192)'],
+            backgroundColor: ['rgb(0, 0, 255)','turquoise','rgb(192,192,192)'],
+            borderColor: ['rgb(0, 0, 255)','turquoise','rgb(192,192,192)'],
             data: [humanCounter,scienceCounter,itCounter],
         }, ]
     },
