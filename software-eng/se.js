@@ -6,14 +6,13 @@ var chart = new Chart(ctx, {
     data: {
         labels: [
             'Mathematics',
+            'Project Management',
             'Engineering',
-            'Manufacturing',
-            'problem solving',
-            'Project Management'
+            'problem solving'
         ],
         datasets: [{
-            backgroundColor: [' #2c6ee9', 'darkbrown', 'darkgray','peru','#502d00'],
-            data: [25, 5,10,50,10 ]
+            backgroundColor: [' #303841', '#00adb5', '#eeeeee','#ff5722'],
+            data: [25, 15,10,50 ]
         }]
     },
 
