@@ -1,32 +1,43 @@
-
-body{
-    font-family: 'Chivo', sans-serif;
-    font-family: 'Gudea', sans-serif;}
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Gudea&family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Gudea&family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Gudea&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Epilogue&family=Fjalla+One&family=Mukta:wght@500;600&family=Playfair+Display:wght@600&family=Secular+One&family=Work+Sans:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Mukta:wght@500;600&family=Playfair+Display:wght@600&family=Secular+One&family=Work+Sans:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Secular+One&display=swap');  
+ body{
+     margin: 0%;
+ }
     #nav-div{
     background-color: #303841;
-    height: 100px;
-    width: 100%;
-    color: white;
-    padding: 20px;
-    box-sizing: border-box;
-    font-size: 30px;
+    height: 150px;
     text-align: center;
     margin-top: 0px;
 }
 #nav-div2{
-    width: 100%;
-    height: 25px;
+    height: 35px;
     background-color: #ff5722;
 }
 #hearderMajor{
     text-align: center;
-    margin-top: 10px;
-    font-size: 30px;
+    /* font-family: 'Abril Fatface', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Secular One', sans-serif; */
+    font-family: 'Lato', sans-serif;
+     margin-top: 10px;
+    font-size: 40px;
     color: #00adb5;
 }
 #headingTwo{
-    padding-top: 20px;
-    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 50px;
+    font-size: 35px;
     margin-left: 40px;
     margin-right: 45%;
     color: #00adb5;
@@ -34,95 +45,112 @@ body{
 }
 #firstPargraph{
     margin-top: 0%;
-    text-align: justify;
+    /* text-align: justify; */
     margin-left: 50px;
-    margin-right: 45%;
+    margin-right: 55%;
    
 }
 h1{
     margin-left: 50px;
-    font-size: 23px;
-    font-family: 'Chivo', sans-serif;
-font-family: 'Gudea', sans-serif;
-}
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;  
+  }
 .paragraph{
     margin-top: 0%;
-margin-left: 10px;
-    word-spacing: 10px;
-    padding: 1.5px;
-    display: justify;
+    margin-left: 45px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+width: 50%; 
+}
+.canvas{
+    float: right;
+    margin-top: 0%;
+    margin-left: 45px;
+    height: 150px;
+   width: 50%;
+}
+.clearfix{
+    clear: both;
 }
 
-
-
 #imagecodeDiv p{
-    margin-top: 0%;
-    text-align: justify;
-    margin-left: 50px;
-    margin-right: 45%;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 55%;
+    display: justify;
+    font-family: 'Roboto', sans-serif;
 }
 #main-img{
     position: absolute;
-    margin-right: 50px;
-    margin-left: 50px;
-    width: 100%;
-    height: 50%;
+    /* margin-right: 50px;
+    margin-left: 50px; */
+    /* width: 90%; */
+    right: 0px;
+    height: 70%;
+    margin-top: -137px;
+    margin-left: 100px;
 }
 #imagecodeDiv{
     width: 100%;
-    height: 442px;
-    margin-top: 50px;
+    height: 600px;
+    margin-top: 95px;
     background-color: #eeeeee;
 }
-
 #sideHead{
     position: absolute;
-    margin-top: -150px;
-    margin-left: 65%;
+    margin-top: -160px;
+    margin-left: 60%;
     margin-right: 5%;
     font-size: 16px;
 }
 #sideHead h2{
     /* //&nbsp; */
-    margin-left: 50px;
-}
+    margin-left: 220px;
+    font-size: 35px;
+    font-family: 'Lato', sans-serif; }
 
 #didYouKnow{
-    width: 282px;
+    width: 400px;
     margin-top: -80px;
-   display: justify;
-    text-transform: lowercase;
+   font-size: 25px;
+   font-family: 'Fira Sans Extra Condensed', sans-serif;
+
 }
 #gif{
-    height: 200px;
-    width: 250px;
-    margin-top: -480px;
-    margin-left: 200px;
+    height: 400px;
+    width: 550px;
+    margin-top: -300px;
+    margin-left: 50px;
 }
 #canvasDiv{
-    margin-top: 5px;
+    margin-top: -105px;
     width: 100%;
-    height: 300px;
+    height: 600px;
     background-color: #00adb5;
     
 
 }
+
 #canvasDiv p{
     position: absolute;
-    padding-top: 10px;
-    font-size: 16px;
-    text-align: justify;
+    padding-top: -45px;
+    font-size: 22px;
+    white-space: pre-line;
     margin-left: 40px;
-    margin-right: 50%;
-    color: white;
+    margin-right: 30%;
+    color: #eeeeeef3;
+    font-family: 'Lato', sans-serif; 
 }
-#chart{
-    margin-left: 480px;
-}
+/* #chart{
+    position: absolute;
+    right:10%;
+    padding-left: 10%;
+} */
 
 #divOne, #divTwo, #Ul{
     width: 250px;
     height: 250px;
+    margin-top: 70px;
     margin-right: 10px;
     float: left;
     
@@ -133,24 +161,26 @@ margin-left: 10px;
     margin-right: 90px;
 }
 
-#fourthParagraph{
+/* #fourthParagraph{
     position: relative;
     text-align: left;
     margin-left: 20%;
     margin-right: 43%;
     margin-bottom: 0%;
-    
-}
+     */
+
 #areaW{
     background-color: #eeeeee;
-    height: 300px;
+    height: 400px;
+    margin-top: -50px;
     width: 100%;
 
 }
 #footer{
-    background-color: #ff5722;
-    height: 200px;
-    width: 100%;
+    height: 100px;
+    /* width: 100%; */
 
-
+}
+#headingThree{
+    /* margin-top: 50px; */
 }
