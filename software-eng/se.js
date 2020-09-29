@@ -7,16 +7,22 @@ var chart = new Chart(ctx, {
         labels: [
             'Mathematics',
             'Project Management',
-            'Engineering',
+            'Manufacturing',
             'problem solving'
         ],
         datasets: [{
-            backgroundColor: [' #303841', '#00adb5', '#eeeeee','#ff5722'],
-            data: [25, 15,10,50 ]
+            backgroundColor: ['#303841', '#627284', '#eeeeee',' #ff5722'],
+           
+            data: [15, 10,25,50 ]
         }]
     },
 
     // Configuration options go here
-    options: {}
+    legend: {
+        labels: {
+            // This more specific font property overrides the global property
+            fontColor: 'white'
+        }
+    }
 
 });
