@@ -1,0 +1,156 @@
+
+body{
+    font-family: 'Chivo', sans-serif;
+    font-family: 'Gudea', sans-serif;}
+    #nav-div{
+    background-color: #303841;
+    height: 100px;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+}
+#nav-div2{
+    width: 100%;
+    height: 25px;
+    background-color: #ff5722;
+}
+#hearderMajor{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #00adb5;
+}
+#headingTwo{
+    padding-top: 20px;
+    font-size: 23px;
+    margin-left: 40px;
+    margin-right: 45%;
+    color: #00adb5;
+
+}
+#firstPargraph{
+    margin-top: 0%;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 45%;
+   
+}
+h1{
+    margin-left: 50px;
+    font-size: 23px;
+    font-family: 'Chivo', sans-serif;
+font-family: 'Gudea', sans-serif;
+}
+.paragraph{
+    margin-top: 0%;
+margin-left: 10px;
+    word-spacing: 10px;
+    padding: 1.5px;
+    display: justify;
+}
+
+
+
+#imagecodeDiv p{
+    margin-top: 0%;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 45%;
+}
+#main-img{
+    position: absolute;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 100%;
+    height: 50%;
+}
+#imagecodeDiv{
+    width: 100%;
+    height: 442px;
+    margin-top: 50px;
+    background-color: #eeeeee;
+}
+
+#sideHead{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 65%;
+    margin-right: 5%;
+    font-size: 16px;
+}
+#sideHead h2{
+    /* //&nbsp; */
+    margin-left: 50px;
+}
+
+#didYouKnow{
+    width: 282px;
+    margin-top: -80px;
+   display: justify;
+    text-transform: lowercase;
+}
+#gif{
+    height: 200px;
+    width: 250px;
+    margin-top: -480px;
+    margin-left: 200px;
+}
+#canvasDiv{
+    margin-top: 5px;
+    width: 100%;
+    height: 300px;
+    background-color: #00adb5;
+    
+
+}
+#canvasDiv p{
+    position: absolute;
+    padding-top: 10px;
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 50%;
+    color: white;
+}
+#chart{
+    margin-left: 480px;
+}
+
+#divOne, #divTwo, #Ul{
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+    float: left;
+    
+    
+}
+#divOne, #divTwo{
+    margin-left: 20px;
+    margin-right: 90px;
+}
+
+#fourthParagraph{
+    position: relative;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 43%;
+    margin-bottom: 0%;
+    
+}
+#areaW{
+    background-color: #eeeeee;
+    height: 300px;
+    width: 100%;
+
+}
+#footer{
+    background-color: #ff5722;
+    height: 200px;
+    width: 100%;
+
+
+}
