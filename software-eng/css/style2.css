@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo&family=Gudea&family=Lato:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo&family=Gudea&family=Lato:wght@700&display=swap');
@@ -119,19 +120,21 @@
     height: 25px;
     background-color: #FF5722;
 }
-
+#navBar{
+    position:sticky;
+    top: 0%;
+    z-index: 3;
+}
 #hearderMajor{
-    text-align: center;
-    /* font-family: 'Abril Fatface', cursive;
-    font-family: 'Fjalla One', sans-serif;
-    font-family: 'Secular One', sans-serif; */
+    text-align: left;
+    margin-left: 35%;
     font-family: 'Lato', sans-serif;
-     margin-top: 10px;
+    margin-top: 10px;
     font-size: 40px;
     color: #00adb5;
 }
 #headingTwo{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding-top: 50px;
     font-size: 35px;
     margin-left: 40px;
@@ -153,11 +156,13 @@ h1{
     margin-left: 50px;
     color: #303841;
     font-size: 35px;
-    font-family: 'Lato', sans-serif;  
+    /* font-family: 'Lato', sans-serif;   */
   }
 .paragraph{
     margin-top: 0%;
     margin-left: 45px;
+    /* white-space: pre-line; */
+    line-height: 40px;
     font-size: 25px;
     color: #303841;
     font-family: 'Lato', sans-serif;
@@ -179,7 +184,7 @@ h1{
     margin-left: 100px;
     margin-right: 55%;
     display: justify;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 #main-img{
     position: absolute;
@@ -194,7 +199,7 @@ h1{
 #imagecodeDiv{
     width: 100%;
     height: 600px;
-    margin-top: 95px;
+    margin-top: -14px;
     background-color: #eeeeee;
 }
 #sideHead{
@@ -213,9 +218,9 @@ h1{
 #didYouKnow{
     width: 400px;
     color: #303841;
-    margin-top: -80px;
+    margin-top: -90px;
    font-size: 25px;
-   font-family: 'Fira Sans Extra Condensed', sans-serif;
+   font-family: 'Lato', sans-serif;
 
 }
 #gif{
@@ -227,7 +232,7 @@ h1{
 #canvasDiv{
     margin-top: -105px;
     width: 100%;
-    height: 600px;
+    height: 750px;
     background-color: #00adb5;
     
 
@@ -276,10 +281,6 @@ li{
     height: 100px;
     background-color: #ff5722;
     
-
-}
-
-#headingThree{
 
 }
 #test{

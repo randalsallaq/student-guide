@@ -60,9 +60,9 @@ h1{
 #parthenon img{
     height: 197px;
     width: 280px;
-  position: absolute;
-  right: 20%;
-  top: 120px; 
+    position: absolute;
+    right: 20%;
+    top: 120px; 
 }
 #secondParagraph{
     text-align: left;
