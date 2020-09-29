@@ -14,7 +14,7 @@
  body{
      margin: 0%;
  }
-    #nav-div{
+    /* #nav-div{
     background-color: #303841;
     height: 150px;
     text-align: center;
@@ -23,7 +23,103 @@
 #nav-div2{
     height: 35px;
     background-color: #ff5722;
+} */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 7;
+    top: 0;
+    left: 0;
+    background-color: #303841;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidenav .main-nav {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav .main-nav:hover {
+    color: #F1F1F1;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav .main-nav {font-size: 18px;}
+  }
+  .dropbtn {
+    background-color:#FF5722;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F1F1F1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 22px;
+    padding-right: 12px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: #FF5722;}
+  #drop{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: "Lato", sans-serif;
+  }
+  #drop:hover{
+       color: #F1F1F1;
+  }
+  #nav-div{
+    background-color: #303841;
+    height: 100px;
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
 }
+#logo{
+    margin-top: -22px;
+    margin-left: -90px;
+}
+#nav-div2{
+    width: 100%;
+    height: 25px;
+    background-color: #FF5722;
+}
+
 #hearderMajor{
     text-align: center;
     /* font-family: 'Abril Fatface', cursive;
@@ -50,8 +146,12 @@
     margin-right: 55%;
    
 }
+h2{
+    color: #303841;
+}
 h1{
     margin-left: 50px;
+    color: #303841;
     font-size: 35px;
     font-family: 'Lato', sans-serif;  
   }
@@ -59,8 +159,9 @@ h1{
     margin-top: 0%;
     margin-left: 45px;
     font-size: 25px;
+    color: #303841;
     font-family: 'Lato', sans-serif;
-width: 50%; 
+/* width: 50%;  */
 }
 .canvas{
     float: right;
@@ -111,6 +212,7 @@ width: 50%;
 
 #didYouKnow{
     width: 400px;
+    color: #303841;
     margin-top: -80px;
    font-size: 25px;
    font-family: 'Fira Sans Extra Condensed', sans-serif;
@@ -134,41 +236,35 @@ width: 50%;
 #canvasDiv p{
     position: absolute;
     padding-top: -45px;
-    font-size: 22px;
+    font-size: 20px;
     white-space: pre-line;
-    margin-left: 40px;
+    margin-left: 80px;
     margin-right: 30%;
     color: #eeeeeef3;
-    font-family: 'Lato', sans-serif; 
 }
-/* #chart{
-    position: absolute;
-    right:10%;
-    padding-left: 10%;
-} */
+
 
 #divOne, #divTwo, #Ul{
     width: 250px;
     height: 250px;
-    margin-top: 70px;
-    margin-right: 10px;
-    float: left;
-    
+    margin-top: -10px;
+    float: left;  
     
 }
 #divOne, #divTwo{
-    margin-left: 20px;
+    margin-left: 70px;
     margin-right: 90px;
 }
 
-/* #fourthParagraph{
-    position: relative;
-    text-align: left;
-    margin-left: 20%;
-    margin-right: 43%;
-    margin-bottom: 0%;
-     */
-
+li{
+    font-family: 'Lato', sans-serif; 
+    font-size: 19px;
+    color: #303841;
+    list-style-type: square;
+    white-space: pre-line;
+    padding: 5px;
+    word-spacing: 2.5px;
+}
 #areaW{
     background-color: #eeeeee;
     height: 400px;
@@ -178,9 +274,15 @@ width: 50%;
 }
 #footer{
     height: 100px;
-    /* width: 100%; */
+    background-color: #ff5722;
+    
 
 }
+
 #headingThree{
-    /* margin-top: 50px; */
+
+}
+#test{
+    margin-top: 50px;
+    
 }
