@@ -12,7 +12,8 @@ var chart = new Chart(ctx, {
         ],
         datasets: [{
             backgroundColor: ['#303841', '#627284', '#eeeeee',' #ff5722'],
-           
+            borderColor: ['#303841', '#627284', '#eeeeee',' #ff5722'],
+
             data: [50, 12.5,12.5, 25 ]
         }]
     },
