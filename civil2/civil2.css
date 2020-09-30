@@ -193,7 +193,9 @@ h1{
     /* width: 90%; */
     right: 0px;
     height: 70%;
-    margin-top: -137px;
+    margin-top: -127px;
+    height: 600px;
+    width: 850px;
     margin-left: 100px;
 }
 #imagecodeDiv{
@@ -204,7 +206,7 @@ h1{
 }
 #sideHead{
     position: absolute;
-    margin-top: -160px;
+    margin-top: -280px;
     margin-left: 60%;
     margin-right: 5%;
     font-size: 16px;
