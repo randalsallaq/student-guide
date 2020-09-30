@@ -204,8 +204,8 @@ h1{
     background-color: #eeeeee;
 }
 #sideHead{
-    position: absolute;
-    margin-top: -160px;
+    /* position: absolute; */
+    margin-top: -220px;
     margin-left: 60%;
     margin-right: 5%;
     font-size: 16px;
@@ -225,10 +225,10 @@ h1{
 
 }
 #gif{
-    height: 400px;
-    width: 550px;
-    margin-top: -300px;
-    margin-left: 50px;
+    height: 200px;
+    width: 300px;
+ 
+
 }
 #canvasDiv{
     margin-top: -105px;
@@ -297,9 +297,11 @@ li{
     
 
 }
-#test{
-    margin-top: 50px;
-    
+#test2{
+    float: right;
+    clear: both;
+    margin-top: -23%;
+    margin-right: 40%;
 }
 
 

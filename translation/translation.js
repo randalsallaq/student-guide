@@ -10,8 +10,8 @@ var chart = new Chart(ctx, {
         labels: ['English','Chinese', 'Hindi', 'Spanish', 'French', 'Arabic'],
         datasets: [{
             label: 'Most spoken languages around the world',
-            backgroundColor:['#303841', '#627284', '#eeeeee',' #ff5722', ' rgb(77, 77, 255)', 'rgb(235, 235, 224)'],
-            borderColor: ['#303841', '#627284', '#eeeeee',' #ff5722', ' rgb(77, 77, 255)', 'rgb(235, 235, 224)'],
+            backgroundColor:['#303841', '#627284', '#eeeeee',' #ff5722', '#007377', 'rgb(235, 235, 224)'],
+            borderColor: ['#303841', '#627284', '#eeeeee',' #ff5722',  '#007377' , 'rgb(235, 235, 224)'],
             data: [ 1268, 1120 , 637, 538, 277, 274]
         }]
     },

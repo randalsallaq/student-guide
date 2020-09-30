@@ -15,16 +15,16 @@
  body{
      margin: 0%;
  }
-    /* #nav-div{
-    background-color: #303841;
-    height: 150px;
-    text-align: center;
-    margin-top: 0px;
+
+abbr{
+    text-decoration: none;
 }
-#nav-div2{
-    height: 35px;
-    background-color: #ff5722;
-} */
+#explosion{
+    width: 600px;
+    position: absolute;
+    top: 110%;
+    left: 40%;
+}
 .sidenav {
     height: 100%;
     width: 0;
@@ -118,16 +118,16 @@
 #nav-div2{
     width: 100%;
     height: 25px;
-    background-color: #FF5722;
+    background-color:#ff5722;
 }
 #navBar{
     position:sticky;
     top: 0%;
     z-index: 3;
 }
-#hearderMajor{
-    text-align: left;
-    margin-left: 35%;
+#major{
+    margin-right: 10%;
+    text-align: center;
     font-family: 'Lato', sans-serif;
     margin-top: 10px;
     font-size: 40px;
@@ -193,18 +193,19 @@ h1{
     /* width: 90%; */
     right: 0px;
     height: 70%;
-    margin-top: -100px;
+    margin-top: -137px;
     margin-left: 100px;
 }
 #imagecodeDiv{
+    
     width: 100%;
-    height: 600px;
+    height: 900px;
     margin-top: -14px;
     background-color: #eeeeee;
 }
 #sideHead{
-    /* position: absolute; */
-    margin-top: -200px;
+    position: absolute;
+    margin-top: -252px;
     margin-left: 60%;
     margin-right: 5%;
     font-size: 16px;
@@ -227,13 +228,15 @@ h1{
     height: 400px;
     width: 550px;
     margin-top: -300px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 #canvasDiv{
-    margin-top: -105px;
+    margin-top: 50px;
     width: 100%;
-    height: 750px;
+    height: 500px;
     background-color: #00adb5;
+    
+
 }
 
 #canvasDiv p{
@@ -245,11 +248,14 @@ h1{
     margin-right: 30%;
     color: #eeeeeef3;
 }
+
+
 #divOne, #divTwo, #Ul{
-    width: 250px;
+    width: 1300px;
     height: 250px;
     margin-top: -10px;
-    float: left;    
+    float: left;  
+    
 }
 #divOne, #divTwo{
     margin-left: 70px;
@@ -268,17 +274,18 @@ li{
 #areaW{
     background-color: #eeeeee;
     height: 400px;
-    margin-top: -50px;
     width: 100%;
 
 }
 #footer{
+    z-index: 6;
     height: 100px;
     background-color: #ff5722;
     
 
 }
-#test{
-    margin-top: 50px;
-    
+#fontawesome{
+
 }
+
+
