@@ -291,12 +291,12 @@ li{
     width: 100%;
 
 }
-#footer{
+/* #footer{
     height: 100px;
     background-color: #ff5722;
-    
+     */
 
-}
+
 #test2{
     float: right;
     clear: both;
@@ -305,3 +305,33 @@ li{
 }
 
 
+footer{
+    padding-top: 45px;
+    text-align: center;
+    height: 80px;
+    background-color: #FF5722;
+}
+a{
+    color: #EEEEEE;;
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif; 
+}
+#fontawesome{
+    margin-right: 50px;
+    align-items: center;
+}
+#fontawesome a:hover{
+    color:  #303841;
+}
+#copy{
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: 'Lato', sans-serif; 
+    float: left;   
+    color: #EEEEEE;;
+}
+ #terms  {
+     margin-right: 50px;
+    float: right;
+}
