@@ -14,7 +14,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Secular+One&display=swap');  
  body{
      margin: 0%;
-     background-color: #303841;
+     background-color: rgb(93, 99, 99);
  }
     /* #nav-div{
     background-color: #303841;
@@ -150,14 +150,6 @@
     margin-right: 55%;
    
 }
-#test2{
-    margin-top: -2000px;
-margin-left: 40%;
-    /* border: 1px solid green;
-height: 200px;
-width: 200px;
-    margin-left:1200px; */
-}
 h2{
     color: #303841;
 }
@@ -200,31 +192,30 @@ h1{
     margin-right: 55%;
     display: justify;
     font-family: 'Lato', sans-serif;
+    
+    
 }
 #main-img{
-    /* position: absolute; */
+    position: absolute;
     /* margin-right: 50px;
-    margin-left: 50px;  */
-    width: 100%;
-    
-    /* width: 90%;
-    /* right: 0px;
+    margin-left: 50px; */
+    /* width: 90%; */
+    right: 0px;
     height: 70%;
-    margin-top: -137px;
-    margin-left: 100px; */
+    margin-top: -127px;
+    height: 600px;
+    width: 850px;
+    margin-left: 100px;
 }
 #imagecodeDiv{
     width: 100%;
     height: 600px;
     margin-top: -14px;
     background-color: #303841;
-
-   
 }
 #sideHead{
-    /* /* position: absolute; */
-    /* margin-top: -160px;  */
-    margin-top: -15%;
+    position: absolute;
+    margin-top: -280px;
     margin-left: 60%;
     margin-right: 5%;
     font-size: 16px;
@@ -237,9 +228,6 @@ h1{
 color: white;
 }
     
-
-  
-
 
 #didYouKnow{
     width: 400px;
@@ -297,7 +285,7 @@ li{
     word-spacing: 2.5px;
 }
 #areaW{
-    background-color:  rgb(93, 99, 99);
+    background-color: rgb(93, 99, 99);
     height: 400px;
     margin-top: -50px;
     width: 100%;
@@ -313,5 +301,3 @@ li{
     margin-top: 50px;
     
 }
-
-
