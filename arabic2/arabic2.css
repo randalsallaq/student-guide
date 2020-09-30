@@ -213,8 +213,9 @@ h1{
     background-color: #eeeeee;
 }
 #sideHead{
-    position: absolute;
-    margin-top: -160px;
+    /* /* position: absolute; */
+    /* margin-top: -160px;  */
+    margin-top: -15%;
     margin-left: 60%;
     margin-right: 5%;
     font-size: 16px;
