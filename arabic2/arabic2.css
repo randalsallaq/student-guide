@@ -149,6 +149,14 @@
     margin-right: 55%;
    
 }
+#test2{
+    margin-top: -2000px;
+margin-left: 40%;
+    /* border: 1px solid green;
+height: 200px;
+width: 200px;
+    margin-left:1200px; */
+}
 h2{
     color: #303841;
 }
@@ -187,14 +195,16 @@ h1{
     font-family: 'Lato', sans-serif;
 }
 #main-img{
-    position: absolute;
+    /* position: absolute; */
     /* margin-right: 50px;
-    margin-left: 50px; */
-    /* width: 90%; */
-    right: 0px;
+    margin-left: 50px;  */
+    width: 100%;
+    
+    /* width: 90%;
+    /* right: 0px;
     height: 70%;
-    margin-top: -100px;
-    margin-left: 100px;
+    margin-top: -137px;
+    margin-left: 100px; */
 }
 #imagecodeDiv{
     width: 100%;
@@ -203,8 +213,9 @@ h1{
     background-color: #eeeeee;
 }
 #sideHead{
-    /* position: absolute; */
-    margin-top: -200px;
+    /* /* position: absolute; */
+    /* margin-top: -160px;  */
+    margin-top: -15%;
     margin-left: 60%;
     margin-right: 5%;
     font-size: 16px;
@@ -227,13 +238,15 @@ h1{
     height: 400px;
     width: 550px;
     margin-top: -300px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 #canvasDiv{
     margin-top: -105px;
     width: 100%;
     height: 750px;
     background-color: #00adb5;
+    
+
 }
 
 #canvasDiv p{
@@ -245,11 +258,14 @@ h1{
     margin-right: 30%;
     color: #eeeeeef3;
 }
+
+
 #divOne, #divTwo, #Ul{
     width: 250px;
     height: 250px;
     margin-top: -10px;
-    float: left;    
+    float: left;  
+    
 }
 #divOne, #divTwo{
     margin-left: 70px;

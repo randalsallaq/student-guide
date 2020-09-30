@@ -14,6 +14,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Secular+One&display=swap');  
  body{
      margin: 0%;
+     background-color: #303841;
  }
     /* #nav-div{
     background-color: #303841;
@@ -149,22 +150,36 @@
     margin-right: 55%;
    
 }
+#test2{
+    margin-top: -2000px;
+margin-left: 40%;
+    /* border: 1px solid green;
+height: 200px;
+width: 200px;
+    margin-left:1200px; */
+}
 h2{
     color: #303841;
 }
 h1{
     margin-left: 50px;
-    color: #303841;
+    color: white;
     font-size: 35px;
     /* font-family: 'Lato', sans-serif;   */
   }
+
+  #nightfirst{
+    background-color: rgb(93, 99, 99);
+    padding-top: 5px;
+    
+}
 .paragraph{
     margin-top: 0%;
     margin-left: 45px;
     /* white-space: pre-line; */
     line-height: 40px;
     font-size: 25px;
-    color: #303841;
+    color: white;
     font-family: 'Lato', sans-serif;
 /* width: 50%;  */
 }
@@ -187,24 +202,29 @@ h1{
     font-family: 'Lato', sans-serif;
 }
 #main-img{
-    position: absolute;
+    /* position: absolute; */
     /* margin-right: 50px;
-    margin-left: 50px; */
-    /* width: 90%; */
-    right: 0px;
+    margin-left: 50px;  */
+    width: 100%;
+    
+    /* width: 90%;
+    /* right: 0px;
     height: 70%;
-    margin-top: -100px;
-    margin-left: 100px;
+    margin-top: -137px;
+    margin-left: 100px; */
 }
 #imagecodeDiv{
     width: 100%;
     height: 600px;
     margin-top: -14px;
-    background-color: #eeeeee;
+    background-color: #303841;
+
+   
 }
 #sideHead{
-    /* position: absolute; */
-    margin-top: -200px;
+    /* /* position: absolute; */
+    /* margin-top: -160px;  */
+    margin-top: -15%;
     margin-left: 60%;
     margin-right: 5%;
     font-size: 16px;
@@ -213,11 +233,17 @@ h1{
     /* //&nbsp; */
     margin-left: 220px;
     font-size: 35px;
-    font-family: 'Lato', sans-serif; }
+    font-family: 'Lato', sans-serif;
+color: white;
+}
+    
+
+  
+
 
 #didYouKnow{
     width: 400px;
-    color: #303841;
+    color: white;
     margin-top: -90px;
    font-size: 25px;
    font-family: 'Lato', sans-serif;
@@ -227,13 +253,15 @@ h1{
     height: 400px;
     width: 550px;
     margin-top: -300px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 #canvasDiv{
     margin-top: -105px;
     width: 100%;
     height: 750px;
     background-color: #00adb5;
+    
+
 }
 
 #canvasDiv p{
@@ -245,11 +273,14 @@ h1{
     margin-right: 30%;
     color: #eeeeeef3;
 }
+
+
 #divOne, #divTwo, #Ul{
     width: 250px;
     height: 250px;
     margin-top: -10px;
-    float: left;    
+    float: left;  
+    
 }
 #divOne, #divTwo{
     margin-left: 70px;
@@ -259,14 +290,14 @@ h1{
 li{
     font-family: 'Lato', sans-serif; 
     font-size: 19px;
-    color: #303841;
+    color: white;
     list-style-type: square;
     white-space: pre-line;
     padding: 5px;
     word-spacing: 2.5px;
 }
 #areaW{
-    background-color: #eeeeee;
+    background-color:  rgb(93, 99, 99);
     height: 400px;
     margin-top: -50px;
     width: 100%;
@@ -282,3 +313,5 @@ li{
     margin-top: 50px;
     
 }
+
+

@@ -3,21 +3,25 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" href="home.css" > -->
+      <link id="dayMood" rel="stylesheet" href="home.css" style="visibility: visible;">  
+   <!-- <link rel="stylesheet" href="home.css" >  -->
+   <link rel="icon" href="/software-eng/img/dark logo.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="nightHome.css" style="visibility: visible;"> 
+        
 </head>
 
 <body>
+
     <!-- <a href=""> <i id="adjust" class="fas fa-adjust"></i></a>
         <a class="fntas" href="https://www.facebook.com"> <i class="fab fa-facebook"></i></a>
         <a class="fntas" href="https://www.instagram.com"> <i class="fab fa-instagram"></i></a>
         <a class="fntas" href="https://www.twitter.com"> <i class="fab fa-twitter"></i></a> -->
-
+        
         <div id="navBar">
             <div id="nav-div">
-                 <img  id="logo" src="images/STUDENT GUIDE LOGO.png" alt=""> 
-
+                <img id="logo" src="images/STUDENT GUIDE LOGO.png" alt="">
+                
+                <button id="night-test" style="z-index: 20; float: right;">Switch Mode 🌙</button>
         </div>
         <div id="nav-div2">
         </div>
@@ -25,7 +29,7 @@
 
     <div id="mySidenav" class="sidenav">
         <a class="main-nav" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a class="main-nav" href="#">Home</a>
+        <a class="main-nav" href="/home/home.html">Home</a>
         <a class="main-nav" href="#test">vission</a>
         <a class="main-nav" href="#ourTeam2">Our team</a>
         <a class="main-nav" href="#">Quiz</a>
@@ -33,11 +37,11 @@
         <div class="dropdown" id="drop">
             <button class="dropbtn">Majors</button>
             <div class="dropdown-content">
-                <a href="#">Civil Engineering</a>
-                <a href="#">Architecture</a>
-                <a href="#">Translation</a>
-                <a href="#">Arabic</a>
-                <a href="#">Software Engineering</a>
+                <a href="/civil2/civil2.html">Civil Engineering</a>
+                <a href="/Architecture/newArch.html">Architecture</a>
+                <a href="/translation/TRANSLATION.html">Translation</a>
+                <a href="/arabic2/arabic2.html">Arabic</a>
+                <a href="/software-eng/softwareEngineering2.html">Software Engineering</a>
             </div>
         </div>
     </div>
@@ -61,65 +65,100 @@
     <div class="second-part">
         <h2>What Should I Major In?</h2>
         <p>
-            If you havn't made your mind yet, then this quiz is espcially <br> designed to help you pick a suitable university
+            If you havn't made your mind yet, then this quiz is espcially <br> designed to help you pick a suitable
+            university
             major
         </p>
-        <img  id="test-img" src="images/white quiz icon.png" style="visibility: visible;" alt="" >
-        <img id="test-img" src="images/Black quiz icon.png" style="visibility: hidden;" alt="">
+         <img id="test-imgNigh" src="images/white quiz icon.png" style="visibility: hidden;" alt="test-imgNigh"> 
+         <img id="test-img" src="images/Black quiz icon.png"  style="visibility: visible;" alt="test-img"> 
         <div id="test">
-            </div>
+        </div>
 
         <button id="toTheQuery">Start Quiz</button>
     </div>
-      
+
     <div id="vission-section">
         <img id="vission-img" src="images/download.jpg" alt="">
         <h2>Vission</h2>
         <p class="vission">The vission is being able to see the sun before it shines, Therefore our vision is to
             increase the level of awarness to students to choose what is the best for them, smallest things can make it
             diffrent,academiclly,and psychologicly</p>
-        </div>
-   
-    <div id="ourTeam2">
-    <div class="team">
-        <h2>
-            Meet Our Teem
-        </h2>
-
-        <div class="column">
-            <img id="img-A" src="images/D.jpg" alt="Snow">
-        </div>
-        <div class="column">
-            <img id="img-D" src="images/D.jpg" alt="Forest">
-        </div>
-        <div class="column">
-            <img id="img-H" src="images/D.jpg" alt="Mountains">
-        </div>
-        <div class="column">
-            <img id="img-R" src="images/D.jpg" alt="Mountains">
-        </div>
-        <div class="column">
-            <img id="img-M" src="images/D.jpg" alt="Mountains">
-        </div>
     </div>
-</div>
-    <div class="img-section">
+
+     <div id="ourTeam2">
+        <div class="team">
+            <h2>
+                Meet Our Team
+            </h2>
+
+
+
+
+
+            <div class="tiles"><a class="tile" href="#"><img  class="img_member" src="images/D.jpg" />
+                <div class="details"><span class="title">Ahmad Al-Mohammad</span><span class="info">
+                        Civil Engineer&software developer <br> Fan of animation
+            </span></div>
+            </a><a class="tile" href="#"><img class="img_member" src="images/D.jpg" />
+                <div class="details"><span class="title">Diana Al-shafie</span><span class="info">Translator & Software developer <br>
+                    Art is my cup of tea
+            
+                        </span></div>
+            </a><a class="tile" href="#"><img class="img_member" src="images/D.jpg" />
+                <div class="details"><span class="title">Hadeel Al-Hawajreh</span><span class="info">Software Engineer& software developer <br> interesed in computer and latest inventions </span></div>
+                /a><a class="tile" href="#"><img class="img_member" src="images/D.jpg" />
+                    <div class="details"><span class="title">Rand Al-Sallaq</span><span class="info">Arabic language graduate & software developer <br> interested in natural language processing </span></div>
+                </a><a class="tile" href="#"><img class="img_member" src="images/D.jpg" />
+                    <div class="details"><span class="title">Malek Abu-shmais</span><span class="info"> An aspirant architect and a software development student
+                        I love ride my bike which I don't have yet</span></div>
+                </a></div>
+
+
+
+
+            <!-- <div class="column">
+                <img id="img-A" src="images/D.jpg" alt="Snow">
+            </div>
+            <div class="column">
+                <img id="img-D" src="images/D.jpg" alt="Forest">
+            </div>
+            <div class="column">
+                <img id="img-H" src="images/D.jpg" alt="Mountains">
+            </div>
+            <div class="column">
+                <img id="img-R" src="images/D.jpg" alt="Mountains">
+            </div>
+            <div class="column">
+                <img id="img-M" src="images/D.jpg" alt="Mountains">
+            </div> -->
+        </div>
+    </div> 
+    
+
+
+    </div>
+
+    <div class="team_pics">
+       
+    </div>
+
+
+    <!-- <div class="img-section">
         <p class="names">Ahmad Al-Mohammad</p>
         <p class="names">Diana Al-shafie</p>
         <p class="names">Hadeel Al-Hawajreh</p>
         <p class="names">Rand Al-Sallaq</p>
         <p class="names">Malek Abu-shmais</p>
 
-    </div>
+    </div> -->
 
-   
-    </div>
 
-    <script src="home.js"></script>
+    <footer>
+        <p class="footer"> copyright@2020 </p>
+    </footer>
+      <script src="home.js"></script>
+
 </body>
 
-<footer>
-    <p class="footer"> copyright@2020 </p>
-</footer>
 
 </html>

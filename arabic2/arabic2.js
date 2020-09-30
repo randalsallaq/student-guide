@@ -5,16 +5,16 @@ var chart = new Chart(ctx, {
     // The data for our dataset
     data: {
         labels: [
-            'Mathematics',
-            'Project Management',
-            'Manufacturing',
-            'problem solving'
+            'Linguistics',
+            'Sociology',
+            'Psychology',
+            'History'
         ],
         datasets: [{
             backgroundColor: ['#303841', '#627284', '#eeeeee',' #ff5722'],
             borderColor: ['#303841', '#627284', '#eeeeee',' #ff5722'],
 
-            data: [15, 10,25,50 ]
+            data: [50, 12.5,12.5, 25 ]
         }]
     },
 
