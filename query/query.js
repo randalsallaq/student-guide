@@ -185,24 +185,11 @@ function ShwoResults(event) {
 
                 labels: ['Arts & Humanities', 'Applied Science', 'Information Technology'],
                 datasets: [{
-
-<<<<<<< HEAD
-        labels: ['Arts & Humanities', 'Applied Science', 'Information Technology'],
-        datasets: [{
-           
-            backgroundColor: ['rgb(0, 0, 255)','turquoise','rgb(192,192,192)'],
-            borderColor: ['rgb(0, 0, 255)','turquoise','rgb(192,192,192)'],
-            data: [humanCounter,scienceCounter,itCounter],
-        }, ]
-    },
-=======
                     backgroundColor: ['rgb(0, 0, 255)', 'rgb(128,0,0)', 'rgb(192,192,192)'],
                     borderColor: ['rgb(0, 0, 255)', 'rgb(128,0,0)', 'rgb(192,192,192)'],
                     data: [humanCounter, scienceCounter, itCounter],
                 },]
             },
->>>>>>> df0b130c2f99a2a1692a12e7c1b9a3208cf0d9a4
-
 
             // Configuration options go here
             options: {}
@@ -217,4 +204,3 @@ reTake.addEventListener('click',reTakeQuiz);
 function reTakeQuiz(){
     localStorage.clear();
 }
-
