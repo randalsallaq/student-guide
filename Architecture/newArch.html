@@ -10,46 +10,51 @@
     <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Chivo&family=Gudea&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/Architecture/css/newArch.css">
+    <link id="dayMood" rel="stylesheet" href="/Architecture/newArch.css">
     <link rel="stylesheet" href="/Architecture/css/all.min.css">
+    <!-- <link rel="stylesheet" href="/Architecture/css/nightArch.css"> -->
 
 </head>
 
 <body>
+    
     <div id="navBar">
         <div id="nav-div">
-             <img  id="logo" src="/Architecture/images/STUDENT GUIDE LOGO.png" alt=""> 
+            <img id="logo" src="images/STUDENT GUIDE LOGO.png" alt="">
+            <button id="night-test" style="z-index: 20; float: right;">Swich mode 🌙</button>
     </div>
     <div id="nav-div2">
     </div>
 </div>
 <div id="mySidenav" class="sidenav">
     <a class="main-nav" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a class="main-nav" href="#">Home</a>
-    <a class="main-nav" href="#">vission</a>
-    <a class="main-nav" href="#">Our team</a>
+    <a class="main-nav" href="/home/home.html">Home</a>
+    <a class="main-nav" href="#test">vission</a>
+    <a class="main-nav" href="#ourTeam2">Our team</a>
     <a class="main-nav" href="#">Quiz</a>
     <div class="dropdown" id="drop">
         <button class="dropbtn">Majors</button>
         <div class="dropdown-content">
-            <a href="#">Civil Engineering</a>
-            <a href="#">Architecture</a>
-            <a href="#">Translation</a>
-            <a href="#">Arabic</a>
-            <a href="#">Software Engineering</a>
+            <a href="/civil2/civil2.html">Civil Engineering</a>
+            <a href="/Architecture/newArch.html">Architecture</a>
+            <a href="/translation/TRANSLATION.html">Translation</a>
+            <a href="/arabic2/arabic2.html">Arabic</a>
+            <a href="/software-eng/softwareEngineering2.html">Software Engineering</a>
         </div>
     </div>
 </div>
 <span
     style="font-size:35px;cursor:pointer;position: absolute; top: 40px; color: white; margin-left: 3%; position: fixed;z-index: 5; "
     onclick="openNav()">&#9776; </span>
-    <h1 id="major"> <!--changed id-->
+    <h1 id="major">
+        <!--changed id-->
         Architecture
     </h1>
     <h1>What is Architecture?</h1>
     <div id="firstPargraph">
         <img id="main-img" src="/Architecture/images/skyl.png" alt="">
-        <p class="paragraph"> You must have been impressed by many spectacular construction works like the Duomo di Milano cathedral or maybe contemporary
+        <p class="paragraph"> You must have been impressed by many spectacular construction works like the Duomo di
+            Milano cathedral or maybe contemporary
             buildings such as Heydar Alive center of Baku. Architecture is the studying of how forms and
             structures convey the building. Historical civilizations are often identified with their surviving
             architectural achievements.
@@ -60,73 +65,85 @@
     <div id="imagecodeDiv">
         <h1 id="headingTwo"> Why to study Architecture?</h1>
         <p class="paragraph">The type of person an architect is the aesthitec oriented and the one who is interested
-                in innovation works. An architect spends his daily life on sketching and visualising spaces.
-                you need to come up with neat ideas. Daily tasks also combine working with drawing and<b><abbr
-                title="Building Information Modeling"> BIM </b></abbr> software and he occassionally do site
-                visits.If you find you have high imaginary and conceptual abilities then go for it.</p>
+            in innovation works. An architect spends his daily life on sketching and visualising spaces.
+            you need to come up with neat ideas. Daily tasks also combine working with drawing and<b><abbr
+                    title="Building Information Modeling"> BIM </b></abbr> software and he occassionally do site
+            visits.If you find you have high imaginary and conceptual abilities then go for it.</p>
 
         <div id="sideHead">
             <h2>Did you know?</h2>
             <p class="paragraph" id="didYouKnow"> <b>
-                The parthenon has been a temple, a church, and a mosque throughout it's
-                lifetime.</p>
-            </div>
-            <img id="explosion" src="/Architecture/images/Arch.png" alt=""> <!--changed id-->
-   
-   
-
-    <div id="canvasDiv">
-        <br><br><br><br>
-        <h1 id="head-can"> This Chart shows the destinations for architecture graduates: </h1>
-        <p class="paragraph" style=" width: 60%;">
-            Almost half of architecture graduates are working as architectural and town planning
-            technicians six months after graduation, with a further 17% working as architects.
-        </p>
-
-        <div class="canvas">
-            <canvas height="100px" id="chart">
-            </canvas>
+                    The parthenon has been a temple, a church, and a mosque throughout it's
+                    lifetime.</p>
         </div>
-        <div class="clearfix"></div>
-        
-    </div>
+        <img id="explosion" src="/Architecture/images/Arch.png" alt="">
+        <!--changed id-->
 
-    <div id="areaW">
 
-        <!-- <div id="fourthParagraph" style="margin-left: 5%;"> -->
-        <!-- <p class="paragraph"> -->
-            <div id="test" style="border: 1px solid #eeeeee;">
+
+        <div id="canvasDiv">
+            <br><br><br><br>
+            <h1 id="head-can"> This Chart shows the destinations for architecture graduates: </h1>
+            <p class="paragraph" style=" width: 60%;">
+                Almost half of architecture graduates are working as architectural and town planning
+                technicians six months after graduation, with a further 17% working as architects.
+            </p>
+
+            <div class="canvas">
+                <canvas height="100px" id="chart">
+                </canvas>
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+
+        <div id="areaW">
+
+            <!-- <div id="fourthParagraph" style="margin-left: 5%;"> -->
+            <!-- <p class="paragraph"> -->
+            <div id="test" style="border:0px solid #303841;">
                 <h1 id="headingThree">Careers in Architecture: </h1>
             </div>
-        <ul id="UL">
-            <div id="divOne">
+            <ul id="UL">
+                <div id="divOne">
 
-                <li>  Landscape Architect: Designing outdoor landscapes,including infrastructure, public areas, agriculture and forestry is
-                    vital for constructing the webs that bind our urban and rural spaces, but also, and perhaps more
-                    importantly, it’s essential for responding to globalization and climate change.
-                <li> Urban Planner: As a result of a rapidly growing percentage
-                    of our population moving into urban areas, the conditions of urbanism are constantly in a state of flux.
-                <li> Lighting Architect: Light has a profound impact on our
-                    mental and physical health, as anyone living at high latitudes can empathize with.
-                    Delving into the architecture of lighting entails improving the quality of our experiences, our health and
-                    well-being, and the sustainability of not only the natural environment,
-                    but also smaller spaces such as our work environments.
-                <li> CAD Technician
-               
-            </div>
-        </ul>
-        <!-- </p> -->
-    </div>
+                    <li> Landscape Architect: Designing outdoor landscapes,including infrastructure, public areas,
+                        agriculture and forestry is
+                        vital for constructing the webs that bind our urban and rural spaces, but also, and perhaps more
+                        importantly, it’s essential for responding to globalization and climate change.
+                    <li> Urban Planner: As a result of a rapidly growing percentage
+                        of our population moving into urban areas, the conditions of urbanism are constantly in a state
+                        of flux.
+                    <li> Lighting Architect: Light has a profound impact on our
+                        mental and physical health, as anyone living at high latitudes can empathize with.
+                        Delving into the architecture of lighting entails improving the quality of our experiences, our
+                        health and
+                        well-being, and the sustainability of not only the natural environment,
+                        but also smaller spaces such as our work environments.
+                    <li> CAD Technician
 
-    <div id="footer">
-        <span id="fontawesome">
-            <a href=""> <i id="adjust" class="fas fa-adjust"></i></a>
-                <a  href="https://www.facebook.com" class="fab fa-facebook"></a>
-                <a  href="https://www.instagram.com" class="fab fa-instagram"></a>
-                <a  href="https://www.twitter.com" class="fab fa-twitter"></i></a>
+                </div>
+            </ul>
+            <!-- </p> -->
+        </div>
+        <footer>
+            <span id="copy">
+               &copy;2020 All rights reserved Student-Guide
             </span>
-    </div>
-    <script src="/Architecture/js/arch.js"></script>
+            <span id="fontawesome">
+                <a href="https://www.facebook.com" class="fab fa-1.5x fa-facebook"></a>
+                <a href="https://www.instagram.com" class="fab fa-1.5x fa-instagram"></a>
+                <a href="https://www.twitter.com" class="fab fa-1.5x fa-twitter"></i></a>
+            </span>
+            <span id="terms">
+                <a href="">Terms of use</a>
+                <a href="">Policy</a>
+                <a href="">Contact us</a>
+            </span>
+           
+        </footer>
+
+        <script src="arch.js"></script>
 </body>
 
 </html>
