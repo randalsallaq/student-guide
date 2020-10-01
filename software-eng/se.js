@@ -30,17 +30,6 @@ function openNav() {
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
-
-
-  /**
-   
-  legend: {
-      labels: {
-          fontColor: "white",
-          fontSize: 12,
-      }
-  }}
-   */
   var totalclick;
   var x = document.getElementById('night-test');
   var y = document.getElementById('dayMood');
@@ -52,12 +41,8 @@ function openNav() {
   console.log(totalclick);
   if (JSON.parse(localStorage.getItem('night')) % 2 !== 0) {
     y.setAttribute('href', 'softwarenight.css');
-  //   document.getElementById('test-imgNigh').style.visibility = 'visible';
-  //   document.getElementById('test-img').style.visibility = 'hidden';
   } else {
     y.setAttribute('href', 'css/style2.css');
-  //   document.getElementById('test-imgNigh').style.visibility = 'hidden';
-  //   document.getElementById('test-img').style.visibility = 'visible';
   }
   x.addEventListener('click', test);
   function test() {
@@ -66,11 +51,8 @@ function openNav() {
     localStorage.setItem('night',JSON.stringify(totalclick));
     if (JSON.parse(localStorage.getItem('night')) % 2 !== 0) {
       y.setAttribute('href', 'softwarenight.css');
-  //     document.getElementById('test-imgNigh').style.visibility = 'visible';
-  //     document.getElementById('test-img').style.visibility = 'hidden';
     } else {
       y.setAttribute('href', 'css/style2.css');
-  //     document.getElementById('test-imgNigh').style.visibility = 'hidden';
-  //     document.getElementById('test-img').style.visibility = 'visible';
+  
   }
 }
