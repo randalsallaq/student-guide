@@ -16,6 +16,9 @@
      margin: 0%;
      background-color: #303841;
  }
+ #nightfirst h1{
+   color: #FFF;
+ }
     /* #nav-div{
     background-color: #303841;
     height: 150px;
@@ -390,7 +393,7 @@ li{
     height: 400px;
     width: 550px;
     margin-top: -300px;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 #canvasDiv{
     margin-top: -105px;
