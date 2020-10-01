@@ -8,10 +8,11 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Chivo&family=Gudea&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="all.min.css">
 
 
-    <link rel="stylesheet" href="/translation/TRANSLATION.css">
-    <!-- <link rel="stylesheet" href="nighttranslation.css"> -->
+    <link id="dayMood" rel="stylesheet" href="/translation/TRANSLATION.css">
+    <!-- <link rel="stylesheet" href="nighttranslation.css" style="visibility: hidden;">  -->
 
 
     <link rel="icon" href="/software-eng/img/dark logo.png" type="image/png">
@@ -21,11 +22,14 @@
 <body>
     <nav id="navBar">
         <div id="nav-div">
-            <img id="logo" src="/software-eng/img/STUDENT GUIDE LOGO.png" alt="mainLogo">
+            <img id="logo" src="/home/images/STUDENT GUIDE LOGO.png " alt="">
+
+            <button id="night-test" style="z-index: 20; float: right;">Switch Mode 🌙</button>
         </div>
         <div id="nav-div2">
         </div>
     </nav>
+
     <div id="mySidenav" class="sidenav">
         <a class="main-nav" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a class="main-nav" href="/home/home.html">Home</a>
@@ -54,9 +58,7 @@
         <div id="firstPargraph">
             <img id="main-img" src="/translation/Diana.png" alt="main image">
             <p class="paragraph"> Translation prepares individuals to be professional interpreters and/or translators of
-                documents and data files, either from English or (Canadian) French into another language or languages or
-                vice versa. Includes intensive instruction in one or more foreign languages plus instruction in subjects
-                such as single- and multiple-language interpretation.
+                documents and data files, either from English or (Canadian) French into another language or languages or vice versa. Includes intensive instruction in one or more foreign languages plus instruction in subjects such as single- and multiple-language interpretation.
                 <br><br><br>
             </p>
         </div>
@@ -71,12 +73,41 @@
             <br>
 
         </p>
-        <div id="sideHead">
+
+        <!-- <div id="sideHead">
             <h2> Did you know?</h2>
             <p id="didYouKnow">
                 A professional translator can translate around 250 words within an hour. A translator working full time
                 can translate around 520,000 words per year, wow!
             </p>
+        </div> -->
+    </div>
+    <div id="didUknow">
+        <div class="container">
+            <div class="front-face">
+                <div class="cover">
+                    <!-- <img src="https://pbs.twimg.com/profile_images/1222136283339853833/dr25E9Lk_400x400.jpg"
+                    class="profile"> -->
+                </div>
+                <div class="name">Did you know?</div>
+
+                <p class="about">
+                    "Flip the Card "
+                </p>
+            </div>
+            <div class="back-face">
+                <h1>About Translation</h1>
+                <p class="about"> A professional translator can translate around 250 words within an hour. A translator
+                    working full time
+                    can translate around 520,000 words per year, wow!</p>
+                <div>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -87,14 +118,15 @@
     <div id="canvasDiv">
         <br><br><br><br>
         <h1 id="head-can"> This Chart illustrates the most spoken languages around the world: </h1>
-        <p class="paragraph" style=" width: 60%; font-size: 25px;         ">
+        <p class="paragraph" >
             It’s easy to see just how important English is around the world. Many international
             businesses conduct meetings in English, universities teach courses in English and, around the world,
             tourists and travellers use English as a common language. <br>
             But how did English become so important? Well, it all goes back to the British Empire, which at its peak
             covered 25% of the earth’s surface. During colonial times, British rulers often obliged the people in
             those countries to speak English rather than their native language. Although the origins of English as a
-            global language has a complicated past, the language has left an important mark on media, trade and business.
+            global language has a complicated past, the language has left an important mark on media, trade and
+            business.
 
         </p>
 
@@ -109,7 +141,7 @@
     <div id="areaW">
 
         <!-- <div id="fourthParagraph" style="margin-left: 5%;"> -->
-        <p class="paragraph">
+        <!-- <p class="paragraph">  -->
         <div id="test">
             <h1 id="headingThree"> Areas Of Work For Translation : </h1>
 
@@ -125,18 +157,18 @@
             </div>
             <div id="divTwo">
                 <li> UN (or other such organizations)
-                    <p>Content for translation includes reports and statements from member governments, so
-                        accuracy and fidelity are of utmost importance.</p>
+                    <p>Content for translation includes reports and statements from member governments, so accuracy and
+                        fidelity are of utmost importance.</p>
 
             </div>
             <div id="divThree">
                 <li> Tour guide
-                    <p>The qualification requirements to be a tour guide are generally less demanding than
-                        for other jobs in this article.</p>
+                    <p>The qualification requirements to be a tour guide are generally less demanding than for other
+                        jobs in this article.</p>
             </div>
 
         </ul>
-        </p>
+        <!-- </p> -->
     </div>
 
 
@@ -158,6 +190,7 @@
             <a href="">Contact us</a>
         </span>
     </footer>
+
     <script src="/translation/translation.js"></script>
 </body>
 
