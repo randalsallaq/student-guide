@@ -112,8 +112,9 @@
     text-align: center;
 }
 #logo{
+  
     margin-top: -22px;
-    margin-left: -90px;
+    margin-left: 10%;
 }
 #nav-div2{
     width: 100%;
@@ -428,7 +429,7 @@ a{
   
   #didUknow{
       position: absolute;
-      top: 140%;
+      top: 130%;
       left: 80%;
   }
 
