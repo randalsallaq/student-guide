@@ -197,7 +197,7 @@ body {
   border-radius: 8px;
   padding-left: 2%;
   padding-right: 2%;
-  top: 150%;
+  top: 147%;
   left: 15%;
   
    
@@ -367,7 +367,7 @@ footer{
   font-size: 0;
   text-align: center;
   position: absolute;
-  top: 280%;
+  top: 275%;;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -457,7 +457,8 @@ footer{
 
 
 .img_member{
-    height: 289px;
+  height: 289px;
+  width: 220px;
   } 
 
   #night-test{
@@ -469,4 +470,35 @@ footer{
     padding: 16px;
     border-radius: 8px;
   
+  }
+
+  footer{
+    padding-top: 45px;
+    text-align: center;
+    height: 80px;
+    background-color: #FF5722;
+  }
+  a{
+    color: #EEEEEE;;
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif; 
+  }
+  #fontawesome{
+    margin-right: 50px;
+    align-items: center;
+  }
+  #fontawesome a:hover{
+    color:  #303841;
+  }
+  #copy{
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: 'Lato', sans-serif; 
+    float: left;   
+    color: #EEEEEE;;
+  }
+  #terms  {
+     margin-right: 50px;
+    float: right;
   }
