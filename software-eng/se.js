@@ -12,19 +12,17 @@ var chart = new Chart(ctx, {
         ],
         datasets: [{
             backgroundColor: ['#303841', '#627284', '#eeeeee',' #ff5722'],
-           
+            borderColor: ['#303841', '#627284', '#eeeeee',' #ff5722'],
             data: [15, 10,25,50 ]
         }]
     },
-
     // Configuration options go here
-    legend: {
+    options: {legend: {
         labels: {
-            // This more specific font property overrides the global property
-            fontColor: 'white'
+            fontColor: "white",
+            fontSize: 12,
         }
-    }
-
+    }}
 });
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
@@ -32,3 +30,29 @@ function openNav() {
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
+  var totalclick;
+  var x = document.getElementById('night-test');
+  var y = document.getElementById('dayMood');
+  if(localStorage.getItem('night')){
+    totalclick= JSON.parse(localStorage.getItem('night'))
+  }else{
+    totalclick = 0;
+  }
+  console.log(totalclick);
+  if (JSON.parse(localStorage.getItem('night')) % 2 !== 0) {
+    y.setAttribute('href', 'softwarenight.css');
+  } else {
+    y.setAttribute('href', 'css/style2.css');
+  }
+  x.addEventListener('click', test);
+  function test() {
+    totalclick++;
+    console.log(totalclick);
+    localStorage.setItem('night',JSON.stringify(totalclick));
+    if (JSON.parse(localStorage.getItem('night')) % 2 !== 0) {
+      y.setAttribute('href', 'softwarenight.css');
+    } else {
+      y.setAttribute('href', 'css/style2.css');
+  
+  }
+}

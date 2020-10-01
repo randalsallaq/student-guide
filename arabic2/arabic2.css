@@ -15,7 +15,16 @@
  body{
      margin: 0%;
  }
-    
+    /* #nav-div{
+    background-color: #303841;
+    height: 150px;
+    text-align: center;
+    margin-top: 0px;
+}
+#nav-div2{
+    height: 35px;
+    background-color: #ff5722;
+} */
 .sidenav {
     height: 100%;
     width: 0;
@@ -103,10 +112,8 @@
     text-align: center;
 }
 #logo{
-    position: absolute;
-    top: 20px;
-    left: 300px;
     margin-top: -22px;
+    margin-left: -90px;
 }
 #nav-div2{
     width: 100%;
@@ -141,6 +148,14 @@
     margin-left: 50px;
     margin-right: 55%;
    
+}
+#test2{
+    margin-top: -2000px;
+margin-left: 40%;
+    /* border: 1px solid green;
+height: 200px;
+width: 200px;
+    margin-left:1200px; */
 }
 h2{
     color: #303841;
@@ -180,29 +195,33 @@ h1{
     font-family: 'Lato', sans-serif;
 }
 #main-img{
-    position: absolute;
+    /* position: absolute; */
     /* margin-right: 50px;
-    margin-left: 50px; */
-    /* width: 90%; */
-    right: 0px;
+    margin-left: 50px;  */
+    width: 100%;
+    
+    /* width: 90%;
+    /* right: 0px;
     height: 70%;
-    margin-top: -100px;
-    margin-left: 100px;
+    margin-top: -137px;
+    margin-left: 100px; */
 }
 #imagecodeDiv{
     width: 100%;
     height: 600px;
     margin-top: -14px;
-    background-color: #eeeeee;}
-
-/* }
+    background-color: #eeeeee;
+}
 #sideHead{
-    margin-top: -200px;
+    /* /* position: absolute; */
+    /* margin-top: -160px;  */
+    margin-top: -15%;
     margin-left: 60%;
     margin-right: 5%;
     font-size: 16px;
 }
 #sideHead h2{
+    /* //&nbsp; */
     margin-left: 220px;
     font-size: 35px;
     font-family: 'Lato', sans-serif; }
@@ -214,11 +233,86 @@ h1{
    font-size: 25px;
    font-family: 'Lato', sans-serif;
 
-} */
+}
+#gif{
+    height: 400px;
+    width: 550px;
+    margin-top: -300px;
+    margin-left: 50px;
+}
+#canvasDiv{
+    margin-top: -105px;
+    width: 100%;
+    height: 750px;
+    background-color: #00adb5;
+    
+
+}
+
+#canvasDiv p{
+    position: absolute;
+    padding-top: -45px;
+    font-size: 22px;
+    white-space: pre-line;
+    margin-left: 80px;
+    margin-right: 30%;
+    color: #eeeeeef3;
+}
 
 
+#divOne, #divTwo, #Ul{
+    width: 250px;
+    height: 250px;
+    margin-top: -10px;
+    float: left;  
+    
+}
+#divOne, #divTwo{
+    margin-left: 70px;
+    margin-right: 90px;
+}
 
-.about{
+li{
+    font-family: 'Lato', sans-serif; 
+    font-size: 19px;
+    color: #303841;
+    list-style-type: square;
+    white-space: pre-line;
+    padding: 5px;
+    word-spacing: 2.5px;
+}
+#areaW{
+    background-color: #eeeeee;
+    height: 400px;
+    margin-top: -50px;
+    width: 100%;
+
+}
+#footer{
+    height: 100px;
+    background-color: #ff5722;
+    
+
+}
+#test{
+    margin-top: 50px;
+    border: 1px solid #eeeeee;
+    
+}
+
+
+#night-test{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 18px;
+    color: white;
+    border: 0px;
+    background: #303841;
+    padding: 16px;
+    border-radius: 8px;
+  }
+
+
+  .about{
     text-align: center;
   }
   .container{
@@ -300,97 +394,37 @@ h1{
       top: 140%;
       left: 80%;
   }
-
-#gif{
-    height: 400px;
-    width: 550px;
-    margin-top: -300px;
-    margin-left: 100px;
-}
-#canvasDiv{
-    margin-top: -105px;
-    width: 100%;
-    height: 800px;
-    background-color: #00adb5;
-}
-
-#canvasDiv p{
-    position: absolute;
-    padding-top: -45px;
-    font-size: 20px;
-    white-space: pre-line;
-    margin-left: 80px;
-    margin-right: 30%;
-    color: #eeeeeef3;
-}
-#divOne, #divTwo, #Ul{
-    width: 250px;
-    height: 250px;
-    margin-top: -10px;
-    float: left;    
-}
-#divOne, #divTwo{
-    margin-left: 70px;
-    margin-right: 90px;
-}
-
-li{
-    font-family: 'Lato', sans-serif; 
-    font-size: 19px;
-    color: #303841;
-    list-style-type: square;
-    white-space: pre-line;
-    padding: 5px;
-    word-spacing: 2.5px;
-}
-#areaW{
-    background-color: #eeeeee;
-    height: 400px;
-    margin-top: -50px;
-    width: 100%;
-
-}
-
-footer{
+  footer{
     padding-top: 45px;
     text-align: center;
     height: 80px;
     background-color: #FF5722;
-  }
-  a{
+}
+a{
     color: #EEEEEE;;
     padding-left: 20px;
     text-decoration: none;
     font-family: 'Lato', sans-serif; 
-  }
-  #fontawesome{
+}
+#fontawesome{
     margin-right: 50px;
     align-items: center;
-  }
-  #fontawesome a:hover{
+}
+#fontawesome a:hover{
     color:  #303841;
-  }
-  #copy{
+}
+#copy{
     margin-right: 0px;
     margin-left: 50px;
     font-family: 'Lato', sans-serif; 
     float: left;   
     color: #EEEEEE;;
-  }
-  #terms  {
+}
+ #terms  {
      margin-right: 50px;
     float: right;
-  }
-#test{
-    margin-top: 50px;
-    
 }
-#night-test{
-    font-family: 'Paytone One', sans-serif;
-    font-size: 18px;
-    color: white;
-    border: 0px;
-    background: #303841;
-    padding: 16px;
-    border-radius: 8px;
-  }
+
+#headingThree{
+    margin-top: -55px;
+}
