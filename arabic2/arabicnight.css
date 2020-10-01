@@ -113,8 +113,13 @@
     text-align: center;
 }
 #logo{
-    margin-top: -22px;
-    margin-left: -90px;
+  position: absolute; 
+  padding-top: -40px;
+   z-index: 10; 
+  height: 100px; 
+  width: 160px;
+  left: 45%;
+  top: -10px ;
 }
 #nav-div2{
     width: 100%;
