@@ -206,6 +206,9 @@ h1{
     /* margin-right: 50px;
     margin-left: 50px;  */
     width: 100%;
+    margin-top: -200px;
+
+    
     
     /* width: 90%;
     /* right: 0px;
@@ -298,7 +301,7 @@ li{
 }
 #areaW{
     background-color:  rgb(93, 99, 99);
-    height: 550px;
+    height: 500px;
     margin-top: 0px;
     width: 100%;
 
@@ -407,7 +410,7 @@ li{
   }
   #didUknow{
       position: absolute;
-      top: 130%;
+      top: 140%;
       left: 80%;
   }
   footer{
