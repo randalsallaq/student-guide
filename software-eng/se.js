@@ -13,11 +13,9 @@ var chart = new Chart(ctx, {
         datasets: [{
             backgroundColor: ['#303841', '#627284', '#eeeeee',' #ff5722'],
             borderColor: ['#303841', '#627284', '#eeeeee',' #ff5722'],
-
             data: [15, 10,25,50 ]
         }]
     },
-
     // Configuration options go here
     legend: {
         labels: {
@@ -25,7 +23,6 @@ var chart = new Chart(ctx, {
             fontColor: 'white'
         }
     }
-
 });
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
