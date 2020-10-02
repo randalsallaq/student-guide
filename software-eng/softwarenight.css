@@ -15,7 +15,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 body{
      margin: 0%;
-     background-color: #303841;
+     background-color: rgb(93, 99, 99);;
  }
  #nightfirst h1{
    color: #FFF;
@@ -174,7 +174,7 @@ h1{
 
 
   #nightfirst{
-    background-color:#303841;
+    background-color:rgb(93, 99, 99);;
     padding-top: 5px;}
 
 .paragraph{
@@ -282,7 +282,7 @@ li{
     word-spacing: 2.5px;
 }
 #areaW{
-    background-color: #303841;
+    background-color:rgb(93, 99, 99);
     height: 400px;
     margin-top: -50px;
     width: 100%;
