@@ -1,0 +1,344 @@
+body{
+    margin: 0%;
+
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.827),
+     #e0e2db);
+    margin-bottom: 0%;
+    }
+   
+a {
+    text-decoration: none;
+    font-style: oblique;
+    margin-left: 10px;   
+    font-family: 'Sarabun', sans-serif;
+    color: #a1a1a1;
+
+}
+#planning{
+    margin-top: 28%;
+    margin-right: 10%;
+
+}
+abbr{
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(45, 178, 255);
+  }
+nav img{
+    position: relative;
+    left: 70px;
+}
+nav{
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255)50%, rgba(238, 238, 238, 0) 80%);
+    z-index: 3;
+    position: sticky;
+    top: 0%;
+}
+#navBar{
+    
+    position: sticky;
+    margin-right: 40%;
+    margin-top: 42px;
+    float: right;
+}
+#fontawesome{
+position: relative;
+top: 50%;
+left: 80%;
+}
+.fntas{
+    color: #878787;
+}
+
+h1{
+    margin-left: 100px;
+    color: #5f7470;
+    font-size: 23px;
+    font-family: 'Comfortaa', cursive;}
+    
+
+figcaption{
+    margin-left: 0px;
+    font-style: normal;
+    font-size: 12px;
+    margin-top: 0%;
+    font-family: 'Sarabun', sans-serif;
+    color: #4e5555;
+}
+.paragraph{
+    margin-top: 0%;
+    font-family: 'Sarabun', sans-serif;
+    color: #889696;
+}
+#firstPargraph{
+    margin-top: 0%;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 45%;
+}
+#parthenon img{
+    height: 197px;
+    width: 287px;
+    position: absolute;
+    right: 20.3%;
+    top: 120px; 
+}
+#secondParagraph{
+
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 43%;
+    margin-bottom: 0%;
+}
+ul {
+    margin: 0%;
+}
+#headingTwo{
+    margin-top: 2%;
+    margin-left: 20%;
+}
+#headingThree{
+    display: inline-block;
+    margin-left: 20%;
+    color: #5f7470;
+    font-size: 23px;
+    font-family: 'Comfortaa', cursive;
+   
+}
+#fourthParagraph {
+    
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    margin-top: 0%;
+    font-family: 'Sarabun', sans-serif;
+    color: #6d7777;
+}
+.jobTitle {
+    font-style: oblique;
+    margin-top: 0%;
+    margin-left: 2%;
+    color: #5f7470;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+#fourthParagraph::first-letter  {
+    font-size: 30px;
+    
+}
+#fifthParagraph::first-letter  {
+    font-size: 30px;
+    
+    
+}
+#sixthParagraph::first-letter  {
+    font-size: 30px;
+    
+}
+#seventhParagraph::first-letter  {
+    font-size: 30px;
+    
+}
+#fifthParagraph{
+    display: inline-block;
+    margin-left: 8%;
+    margin-right: 35%;
+    text-align: justify;
+    margin-top: 0%;
+    font-family: 'Sarabun', sans-serif;
+    color: #6d7777;
+}
+#planning{
+    transform: rotateX(20deg);
+    top: 50%;
+    right: 10%;
+    width: 200px;
+    position: absolute;
+   
+}
+#sixthParagraph{
+    display: inline-block;
+    margin-left: 8%;
+    margin-right: 35%;
+    text-align: justify;
+    margin-top: 0%;
+    font-family: 'Sarabun', sans-serif;
+    color: #6d7777;
+}
+#seventhParagraph{
+    display: inline-block;
+    margin-left: 8%;
+    margin-right: 35%;
+    text-align: justify;
+    margin-top: 0%;
+    font-family: 'Sarabun', sans-serif;
+    color: #6d7777;
+
+}
+#turning-turso{
+    position: absolute;
+    left: 80px;
+    top: 40%;
+    display: inline-block;
+    
+}
+#thirdParagraph{
+    position: relative;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 43%;
+    margin-bottom: 0%;
+}
+
+#sideHead{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 60%;
+    margin-right: 20%;
+    color: #5f7470;
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+::first-letter {
+    text-transform: uppercase;
+}
+#didYouKnow{
+    width: 282px;
+    margin-top: 10px;
+    text-transform: lowercase;
+}
+h2{
+    font-family: 'Comfortaa', cursive;
+}
+h3{
+    padding-top: 8%;
+    padding-left: 5%;
+    justify-content: left;
+    margin-right: 50px;
+    position: absolute;
+    margin-left: 23%;
+    color: #5f7470;
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+
+}
+#lastH{
+    position: absolute;
+    margin-left: 28%;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+#linkBook {
+    margin-top: 10px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+#sideHead h2{
+    margin-top: 10%;
+    margin-bottom: 0px;
+}
+#heydar img {
+    width: 285px;
+}
+
+#torso{
+    margin-bottom: 5px;
+    position: relative;
+    top: 80%;
+    right: 55%;
+    bottom: 123px;
+    transform: rotate(-90deg);
+}
+#parth{
+    position: absolute;
+    margin-top: 2.3%;
+    margin-left: 60%;
+    
+}
+a:hover #adjust {
+    color: black;
+    
+
+}
+#headingFour{
+    display: inline-block;
+    margin-left: 8.5%;
+    color: #5f7470;
+    font-size: 23px;
+    font-family: 'Comfortaa', cursive;
+
+}
+#eighthParagraph{
+    display: inline-block;
+    margin-left: 8.5%;
+    margin-right: 35%;
+    text-align: justify;
+    margin-top: 0%;
+    font-family: 'Sarabun', sans-serif;
+    color: #6d7777;
+}
+table{
+    position: relative;
+    left:  25%;
+}
+th {
+    font-family: 'Roboto Condensed', sans-serif;;
+    border-bottom:  1px solid rgb(95, 95, 95);
+    color: rgb(0, 183, 255);
+    padding: 10px;
+    text-align: left;
+  }
+   td {
+    border-bottom:  1px solid rgb(95, 95, 95);
+    font-family: 'Sarabun', sans-serif;
+    color: #5f7470;
+    padding: 10px;
+    text-align: left;
+  }
+   tfoot td{
+padding-left: 50px;      
+border: none;
+
+  }
+
+a:hover #linkBook {
+    color: rgb(138, 0, 0);
+}
+  tr:hover {background-color: #b9b9b983;}
+  #headingFive{
+    display: inline-block;
+    margin-left: 16%;
+    color: #5f7470;
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+  }
+
+#ninthParagraph{
+    display: inline-block;
+    margin-left: 8.5%;
+    margin-right: 35%;
+    text-align: justify;
+    margin-top: 0%;
+    font-family: 'Sarabun', sans-serif;
+    color: #6d7777;
+}
+#book{
+    position: relative;
+    left: 8.5%;
+}
+#architectImage{
+    position: absolute;
+    top: 160%;
+    right: 20%;
+}
+
+#answerSection{
+    position: absolute;
+    top: 195%;
+    right: 24%;
+}
