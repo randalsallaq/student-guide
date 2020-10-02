@@ -12,7 +12,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Epilogue&family=Fjalla+One&family=Mukta:wght@500;600&family=Playfair+Display:wght@600&family=Secular+One&family=Work+Sans:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Mukta:wght@500;600&family=Playfair+Display:wght@600&family=Secular+One&family=Work+Sans:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Secular+One&display=swap');  
- body{
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+body{
      margin: 0%;
      background-color: rgb(93, 99, 99);
  }
@@ -113,8 +114,13 @@
     text-align: center;
 }
 #logo{
-    margin-top: -22px;
+    margin-top: -30px;
     margin-left: -90px;
+      position: absolute; 
+  padding-top: 15px;
+  z-index: 10; 
+  height: 100px; 
+  width: 160px;
 }
 #nav-div2{
     width: 100%;
@@ -160,11 +166,7 @@ h1{
     /* font-family: 'Lato', sans-serif;   */
   }
 
-  #nightfirst{
-    background-color: rgb(93, 99, 99);
-    padding-top: 5px;
-    
-}
+ 
 .paragraph{
     margin-top: 0%;
     margin-left: 45px;
@@ -299,7 +301,7 @@ li{
 
 }
 #test{
-    margin-top: 50px;
+    margin-top: -20px;
     border: 1px solid rgb(93, 99, 99);
     
 }
@@ -312,6 +314,8 @@ li{
     background: white;
     padding: 16px;
     border-radius: 8px;
+    margin-top: 0.65%;
+    margin-right: 0.65%;
   } 
 
 
@@ -344,3 +348,85 @@ li{
      margin-right: 50px;
     float: right;
 }
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 430px;
+    width: 350px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .front-face, .back-face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #d8dee8;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    box-shadow: 0 2px 3px rgba(0,0,0,.2);
+    transition: transform .4s linear;
+  }
+  .cover{
+    background:  #FF5722;
+    height: 115px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  .profile{
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    padding: 5px;
+    background: white;
+    margin-top: 40px;
+  }
+  .name{
+    font-size: 30px;
+    padding-top: 75px;
+  }
+  .tag{
+    padding: 5px 0;
+  }
+  .about{
+    margin-top: 10px;
+    padding: 0px 35px;
+    font-size: 22px;
+    color: #303841 ;
+  }
+  h1{
+    color: #0d0d0d;
+  }
+  p{
+    padding: 20px;
+    color: #262626;
+   
+  }
+  i{
+    font-size: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+  i:hover {
+    font-size: 25px;
+  }
+  
+  .back-face{
+    transform: perspective(800px) rotateY(-180deg);
+  }
+  .front-face{
+    transform: perspective(800px) rotateY(0deg);
+  }
+  .container:hover > .back-face{
+    transform: perspective(800px) rotateY(0deg);
+  }
+  .container:hover > .front-face{
+    transform: perspective(800px) rotateY(180deg);
+  }
+  
+  #didUknow{
+      position: absolute;
+      top: 120%;
+      left: 80%;
+  }

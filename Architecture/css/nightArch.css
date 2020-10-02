@@ -1,12 +1,4 @@
-#night-test{
-    font-family: 'Paytone One', sans-serif;
-    font-size: 18px;
-    color:  #303841;
-    border: 0px;
-    background:white;
-    padding: 16px;
-    border-radius: 8px;
-  }
+
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo&family=Gudea&family=Lato:wght@400;700&display=swap');
@@ -21,7 +13,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Epilogue&family=Fjalla+One&family=Mukta:wght@500;600&family=Playfair+Display:wght@600&family=Secular+One&family=Work+Sans:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Mukta:wght@500;600&family=Playfair+Display:wght@600&family=Secular+One&family=Work+Sans:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Secular+One&display=swap');  
- body{
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+body{
      margin: 0%;
      background-color:rgb(93, 99, 99)     ;
  }
@@ -122,8 +115,13 @@ abbr{
     margin-top: 0px;
   }
   #logo{
-    margin-top: -22px;
-    margin-left:120px;
+    margin-top: -40px;
+    margin-left: -90px;
+      position: absolute; 
+  padding-top: 15px;
+  z-index: 10; 
+  height: 100px; 
+  width: 160px;
   }
   #nav-div2{
     width: 100%;
@@ -244,7 +242,7 @@ h1{
 }
 #canvasDiv{
     
-    margin-top: 50px;
+    
     width: 100%;
     height: 500px;
     background-color: #00adb5;
@@ -455,4 +453,8 @@ a{
  #terms  {
      margin-right: 50px;
     float: right;
+}
+#headingThree{
+  padding-top: 20px;
+  margin-top: 0%;
 }

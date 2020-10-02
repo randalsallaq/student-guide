@@ -12,7 +12,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Epilogue&family=Fjalla+One&family=Mukta:wght@500;600&family=Playfair+Display:wght@600&family=Secular+One&family=Work+Sans:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Mukta:wght@500;600&family=Playfair+Display:wght@600&family=Secular+One&family=Work+Sans:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Secular+One&display=swap');  
- body{
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+body{
      margin: 0%;
  }
     /* #nav-div{
@@ -113,8 +115,13 @@
 }
 #logo{
   
-    margin-top: -22px;
-    margin-left: 10%;
+  margin-top: -30px;
+  margin-left: -90px;
+    position: absolute; 
+padding-top: 15px;
+z-index: 10; 
+height: 100px; 
+width: 160px;
 }
 #nav-div2{
     width: 100%;
@@ -194,7 +201,7 @@ h1{
     right: 0px;
     height: 100%;
     width: 55%;
-    margin-top: -100px;
+    margin-top: -170px;
     margin-left: 100px;
 }
 #imagecodeDiv{
@@ -343,7 +350,8 @@ a{
     background: #303841;
     padding: 16px;
     border-radius: 8px;
-  
+    margin-top: 0.65%;
+    margin-right: 0.65%;
   }
 
   .about{
@@ -429,7 +437,7 @@ a{
   
   #didUknow{
       position: absolute;
-      top: 130%;
+      top: 115%;
       left: 80%;
   }
 
@@ -462,4 +470,9 @@ a{
  #terms  {
      margin-right: 50px;
     float: right;
+}
+#nightfirst{
+  background-color:white;
+  padding-top: 5px;
+  
 }

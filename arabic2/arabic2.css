@@ -12,7 +12,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Epilogue&family=Fjalla+One&family=Mukta:wght@500;600&family=Playfair+Display:wght@600&family=Secular+One&family=Work+Sans:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Mukta:wght@500;600&family=Playfair+Display:wght@600&family=Secular+One&family=Work+Sans:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Secular+One&display=swap');  
- body{
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+body{
      margin: 0%;
  }
     /* #nav-div{
@@ -112,8 +114,13 @@
     text-align: center;
 }
 #logo{
-    margin-top: -22px;
-    margin-left: -90px;
+  margin-top: -30px;
+  margin-left: -90px;
+    position: absolute; 
+padding-top: 15px;
+z-index: 10; 
+height: 100px; 
+width: 160px;
 }
 #nav-div2{
     width: 100%;
@@ -309,6 +316,8 @@ li{
     background: #303841;
     padding: 16px;
     border-radius: 8px;
+    margin-top: 0.65%;
+    margin-right: 0.65%
   }
 
 
@@ -391,7 +400,7 @@ li{
   }
   #didUknow{
       position: absolute;
-      top: 140%;
+      top: 110%;
       left: 80%;
   }
   footer{
@@ -427,4 +436,10 @@ a{
 
 #headingThree{
     margin-top: -55px;
+}
+#nightfirst{
+  background-color: white;
+  margin-top: -10px;
+  height: 550px;
+  
 }
