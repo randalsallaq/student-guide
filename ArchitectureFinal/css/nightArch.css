@@ -334,13 +334,13 @@ a{
     float: right;
 }
 #night-test{
-    font-family: 'Paytone One', sans-serif;
-    font-size: 18px;
-    color: white;
-    border: 0px;
-    background: #303841;
-    padding: 16px;
-    border-radius: 8px;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 18px;
+  color:#303841;
+  border: 0px;
+  background:  white;
+  padding: 16px;
+  border-radius: 8px;
   }
   .about{
     text-align: center;
